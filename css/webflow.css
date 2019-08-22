@@ -518,6 +518,7 @@ textarea.w-select {
 .w-container .w-row {
   margin-left: -10px;
   margin-right: -10px;
+  margin-bottom: 10px;
 }
 .w-row:before,
 .w-row:after {
@@ -1665,7 +1666,7 @@ textarea.w-select {
 .w-nav-button {
   position: relative;
   float: right;
-  padding: 18px;
+  padding-right: 18px;
   font-size: 24px;
   display: none;
   cursor: pointer;
