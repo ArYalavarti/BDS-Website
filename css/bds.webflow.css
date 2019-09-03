@@ -143,7 +143,7 @@ p {
 }
 
 .nav-link.button-link {
-  margin-top: 19px;
+  margin-top: 15px;
   margin-left: 20px;
   padding: 2px 8px 1px;
   border: 1px solid lightgray;
@@ -153,6 +153,10 @@ p {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 2px;
+
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-link.button-link.fixed-button-link {
@@ -161,13 +165,14 @@ p {
   margin-left: 0px;
   float: right;
   border: 1px solid lightgray;
-  background-color: transparent;
+  background-color: #132a41;
   -webkit-transition: color 400ms ease, border-color 400ms ease;
   transition: color 400ms ease, border-color 400ms ease;
   color: white;
   font-weight: 600;
 }
 
+.dropdown-content > a:hover,
 .nav-link.button-link.fixed-button-link:hover {
   border-color: #f27b89;
   color: #ee6978;
@@ -1090,8 +1095,12 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     z-index: 10000;
     margin-top: -8px;
     padding-bottom: 20px;
-    background-color: rgba(54, 65, 77, 0.9);
+    background-color: #132a41;
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   }
+
   .nav-link {
     display: block;
     padding-top: 19px;
