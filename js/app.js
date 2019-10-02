@@ -1,33 +1,33 @@
-var iso = new Isotope(".grid", {
-  itemSelector: ".team-item",
-  layoutMode: "fitRows",
-  filter: ".datasets"
-});
-
-var filtersElem = document.querySelector(".filters-button-group");
-filtersElem.addEventListener("click", function(event) {
-  if (!matchesSelector(event.target, "button")) {
-    return;
-  }
-  var filterValue = event.target.getAttribute("data-filter");
-  iso.arrange({ filter: filterValue });
-});
-
-var buttonGroups = document.querySelectorAll(".button-group");
-for (var i = 0, len = buttonGroups.length; i < len; i++) {
-  var buttonGroup = buttonGroups[i];
-  radioButtonGroup(buttonGroup);
-}
-
-function radioButtonGroup(buttonGroup) {
-  buttonGroup.addEventListener("click", function(event) {
-    if (!matchesSelector(event.target, "button")) {
-      return;
-    }
-    buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
-    event.target.classList.add("is-checked");
-  });
-}
+// var iso = new Isotope(".grid", {
+//   itemSelector: ".team-item",
+//   layoutMode: "fitRows",
+//   filter: ".datasets"
+// });
+//
+// var filtersElem = document.querySelector(".filters-button-group");
+// filtersElem.addEventListener("click", function(event) {
+//   if (!matchesSelector(event.target, "button")) {
+//     return;
+//   }
+//   var filterValue = event.target.getAttribute("data-filter");
+//   iso.arrange({ filter: filterValue });
+// });
+//
+// var buttonGroups = document.querySelectorAll(".button-group");
+// for (var i = 0, len = buttonGroups.length; i < len; i++) {
+//   var buttonGroup = buttonGroups[i];
+//   radioButtonGroup(buttonGroup);
+// }
+//
+// function radioButtonGroup(buttonGroup) {
+//   buttonGroup.addEventListener("click", function(event) {
+//     if (!matchesSelector(event.target, "button")) {
+//       return;
+//     }
+//     buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
+//     event.target.classList.add("is-checked");
+//   });
+// }
 
 particlesJS(
   "particles-js",
