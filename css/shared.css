@@ -445,3 +445,26 @@ input[type="checkbox"] {
 	margin-bottom: 40px;
 }
 
+.team-radio-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.team-radio {
+	cursor: pointer;
+	background-color: #bbbbbb;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	border-radius: 4px;
+}
+
+.member-continer {
+	width: 33%;
+}
