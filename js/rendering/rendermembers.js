@@ -4,42 +4,42 @@ members = [
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "directors"
+    "position": "datasets"
   },
   {
     "image": "./images/team/temp.png",
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "web"
+    "position": "datasets"
   },
   {
     "image": "./images/team/temp.png",
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "marketing"
+    "position": "datasets"
   },
   {
     "image": "./images/team/temp.png",
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "marketing"
+    "position": "competition"
   },
   {
     "image": "./images/team/temp.png",
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "marketing"
+    "position": "datasets"
   },
   {
     "image": "./images/team/temp.png",
     "name": "NAME",
     "description": "Description",
     "bio": "bio",
-    "position": "marketing"
+    "position": "datasets"
   }
 ]
 
@@ -47,29 +47,43 @@ $(document).ready(function (){
   for (var i = 0; i < members.length; i++ ) {
     var langhtml = ""
     var item = members[i]
-    var html = '<div class="item member-continer ' + item.position +'">' +
-                  '<div class="center-container">' +
-                    '<img class="team-image" src="' + item.image + '">' +
-                    '<div class="section-heading featured">' +
-                      '<span>' + item.name + '</span><br/>' +
-                      '<span class="section-heading featured descript">' +
-                        item.description +
-                    '</div>' +
-                  '</div>' +
-                '</div>'
+    var html = '<div class="wide-container work-container w-container"> <div class="w-col w-col-3 team-item ' + item.position + '"> <div class="center-container"> <img class="team-image" src="' + item.image + '"> <div class="section-heading featured"><span>' + item.name + '</span></div> </div> </div> </div>'
+
     html = $.parseHTML(html);
     $("#members").append(html);
   }
 })
 
-function filter(category) {
-  $("#members").isotope({ filter: '.' + category });
-}
-
 $(document).ready(function (){
-  $('#members').isotope({
-    itemSelector: ".item",
+
+  var iso = new Isotope(".grid", {
+    itemSelector: ".team-item",
     layoutMode: "fitRows",
-    filter: ".web"
+    filter: ".datasets"
   });
-})
+
+  var filtersElem = document.querySelector(".filters-button-group");
+  filtersElem.addEventListener("click", function(event) {
+    if (!matchesSelector(event.target, "button")) {
+      return;
+    }
+    var filterValue = event.target.getAttribute("data-filter");
+    iso.arrange({ filter: filterValue });
+  });
+
+  var buttonGroups = document.querySelectorAll(".button-group");
+  for (var i = 0, len = buttonGroups.length; i < len; i++) {
+    var buttonGroup = buttonGroups[i];
+    radioButtonGroup(buttonGroup);
+  }
+
+  function radioButtonGroup(buttonGroup) {
+    buttonGroup.addEventListener("click", function(event) {
+      if (!matchesSelector(event.target, "button")) {
+        return;
+      }
+      buttonGroup.querySelector(".is-checked").classList.remove("is-checked");
+      event.target.classList.add("is-checked");
+    });
+  }
+});
