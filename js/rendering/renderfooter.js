@@ -20,7 +20,7 @@ function renderfooter (pathextension){
                         <a href="${pathextension}index.html" class="footer-link">Home</a>
                         <a href="${pathextension}datathon/index.html" class="footer-link">Datathon</a>
                         <a href="${pathextension}datathon/conduct/index.html" class="footer-link">Code of Conduct</a>
-                        <a href="" class="footer-link">Contact</a>
+                        <a href="mailto:bds@brown.edu" class="footer-link">Contact</a>
                     </div>
                     </div>
                     <div class="copyright"> Copyright © 2019 Brown University Data Science. All Rights Reserved. <br/>
