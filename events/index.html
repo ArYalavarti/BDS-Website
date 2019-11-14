@@ -17,6 +17,10 @@
 	<link href="../css/bds.webflow.css" rel="stylesheet" type="text/css">
 	<link href="../css/shared.css" rel="stylesheet" type="text/css">
 
+	<!--  Tooltips  -->
+	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+
 	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 			type="text/javascript"
@@ -35,7 +39,7 @@
 	<link href="../images/logos/bds-logo-blue.png" rel="apple-touch-icon">
 
     <style>
-		#workshops > div, .w-row:not(:last-child) {
+		#pastEvents > div, #upcomingEvents > div, .w-row:not(:last-child) {
             margin-bottom: 40px;
         }
     </style>
@@ -63,24 +67,24 @@
 	</header>
 
 	<section id="Upcoming" class="section work-section">
-        <div class="w-row">
-            <h2 class="section-heading center">Upcoming Events</h2>
-            <div class="wide-container work-container w-container center-container">
-                <img class="divider-small" src="../images/main/divider-small.png">
-                <div class="w-col w-col-12">
-                    <div class="center-container">
-						<p class="navy-text-block">In progress, stay tuned for more events! </p>
-						<div style="height: 80px; margin-bottom: 20px;">
-                            <img id='gear' src='../images/main/gear.png' height="40">
-                            <img id='gear2' src='../images/main/gear.png' height="40">
-                        </div>
-						<p class="navy-text-block">Interested in learning more about future events and workshops?</p>
-						<p class="navy-text-block"><b><a class="coral" href="https://listserv.brown.edu/cgi-bin/wa?A0=BDS">Join our mailing list</a></b> to receive updates!</p>
-                    </div>
+		<div class="w-row center-container">
+			<div class="center-container">
+				<h2 class="section-heading center">Upcoming Events</h2>
+				<h5 class="navy-text-block center">Fall 2019</h5>
+				<img class="divider-small" src="../images/main/divider-small.png">
+			</div>
+			<div id="inProgress" style="display: none" class="center-container">
+				<p class="navy-text-block">In progress, stay tuned for more events! </p>
+				<div style="height: 80px; margin-bottom: 20px;">
+					<img id='gear' src='../images/main/gear.png' height="40">
+					<img id='gear2' src='../images/main/gear.png' height="40">
 				</div>
-            </div>
-        </div>
-    </section>
+			</div>
+			<div id="upcomingEvents"></div>
+			<p class="navy-text-block">Interested in learning more about future events and workshops?</p>
+			<p class="navy-text-block"><b><a class="coral" href="https://listserv.brown.edu/cgi-bin/wa?A0=BDS">Join our mailing list</a></b> to receive updates!</p>
+		</div>
+	</section>
 
     <section id="Past" class="section work-section" style="padding: auto 20px;">
         <div class="w-row">
@@ -89,9 +93,7 @@
 				<h5 class="navy-text-block center">Fall 2019</h5>
 				<img class="divider-small" src="../images/main/divider-small.png">
 			</div>
-			<div id="workshops">
-
-			</div>
+			<div id="pastEvents"></div>
 		</div>
 	</section>
 

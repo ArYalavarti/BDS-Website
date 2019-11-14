@@ -172,8 +172,10 @@ a {
 	transition: 400ms ease;
 }
 
-.event-content-block {
-
+.workshop-disabled {
+	cursor: auto;
+	color: #8e8e8e;
+	background: #f1f1f1;
 }
 
 #gear {
@@ -213,6 +215,28 @@ a {
 		transform: rotate(0deg);
 	}
 }
+
+/* -------- Tooltip Styling -------- */
+
+.tippy-tooltip.bds-theme {
+	background-color: #132a41;
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 0 rgba(99, 100, 100, 0.397);
+}
+
+.tippy-tooltip.bds-theme[data-animatefill] {
+	background-color: transparent;
+}
+
+.tippy-tooltip.bds-theme .tippy-backdrop {
+	background-color: #132a41;
+}
+
+/*.tippy-tooltip.bds-theme .tippy-roundarrow {*/
+/*	fill: #fff;*/
+/*}*/
 
 @media (max-width: 700px) {
 	.logo-main {
