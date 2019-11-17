@@ -194,7 +194,7 @@ p {
 
 .wide-container {
   position: relative;
-  max-width: 1000px;
+  max-width: 950px;
 }
 
 .wide-container.full-height-container {
@@ -1131,8 +1131,8 @@ html.w-mod-js *[data-ix="short-wide-image-scroll"] {
     text-align: center;
   }
   .wide-container.work-container {
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 
   .hero-h1 {
