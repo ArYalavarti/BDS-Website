@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Brown Data Science | Home</title>
+	<title>Brown Data Science | Page Not Found</title>
 
 	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -12,10 +12,7 @@
 
 	<!-- Meta Properties -->
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<meta property="og:title" content="Brown Data Science | Home">
-	<meta property="og:description" content="At Brown Data Science, we aim to connect students, faculty, and industries to create a hub for opportunities related to Data Science and Machine Learning in Brown’s undergraduate community and beyond.">
-	<meta property="og:image" content="https://browndata.org/images/logos/bds-logo-blue.png">
-	<meta property="og:url" content="https://browndata.org/">
+	<meta property="og:title" content="Brown Data Science | Page Not Found">
 
 	<!-- Custom CSS -->
 	<link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -35,6 +32,25 @@
 	<script type="text/javascript" src="js/rendering/renderfooter.js"></script>
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link href="images/logos/bds-logo-blue.png" rel="apple-touch-icon">
+
+	<style>
+		p {
+			padding: 30px;
+			color: #f1f1f1;
+			font-size: 30pt;
+			font-weight: 200;
+			max-width: none;
+			line-height: initial;
+			margin: 50px auto auto;
+		}
+
+		@media (max-width: 400px) {
+			p {
+				margin: auto;
+			}
+		}
+	</style>
+
 </head>
 <body>
   <header class="fixed-header">
@@ -44,15 +60,9 @@
 					<div class="w-icon-nav-menu"></div>
 				</div>
 				<nav role="navigation" class="nav-menu w-nav-menu">
-					<div class="nav-link button-link fixed-button-link w-nav-link dropdown" style="width: 110px;">
-						Archives <span class="w-icon-arrow-down"></span>
-						<div class="dropdown-content">
-							<a class="nav-link button-link"
-							   href="../2018">2018</a>
-							<a class="nav-link button-link"
-							   href="../2019">2019</a>
-						</div>
-					</div>
+					<a class="nav-link w-nav-link"></a>
+
+					<a href="events" class="nav-link button-link fixed-button-link w-nav-link">Events</a>
 					<a href="datathon" class="nav-link button-link fixed-button-link w-nav-link">Datathon</a>
 					<a href="./" class="nav-link button-link fixed-button-link w-nav-link">Home</a>
 				</nav>
@@ -63,7 +73,7 @@
     <div id="particles-js">
       <h1 class="hero-h1">
                 <div>
-                    <img class="logo-main" src="images/main/404image.png">
+					<p>404 Error: Page Not Found</p>
                 </div>
             </h1>
     </div>
@@ -76,6 +86,6 @@
 	<script src="js/webflow.js" type="text/javascript"></script>
 	<script src="js/particles-main.js" type="text/javascript"></script>
 	<script src="js/isotope.js" type="text/javascript"></script>
-	<script src="js/app.js" type="text/javascript"></script>
+	<script src="js/particles-util.js" type="text/javascript"></script>
 </body>
 </html>
