@@ -179,6 +179,10 @@ a {
 	background: #f1f1f1;
 }
 
+.workshop-disabled:active {
+	color: #8e8e8e;
+}
+
 #gear {
     margin-top: 20px;
 	animation-name: ckw;
