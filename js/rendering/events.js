@@ -7,7 +7,7 @@ PAST_EVENTS = [
         "name": "Pandas and Exploratory Data Analysis",
         "image": "../images/workshops/pandas-workshop.jpg",
         "event_link": "https://www.facebook.com/events/528263211064252/",
-        "materials_link": "",
+        "materials_link": "https://drive.google.com/open?id=1LG-odgjd6tFqNPAs7lVm6GV3CYe2A5ZO",
         "description": "Learn more about the fundamentals of the Pandas library and about Exploratory Data Analysis. By the end of the workshop, you will have learned how to read in different data files, search/analyze data of your own, get the “big picture” insights into datasets, and create visualizations",
         "alt_btn": "",
         "workshop": true
