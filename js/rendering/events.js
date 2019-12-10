@@ -1,6 +1,16 @@
 let disabledTooltips;
 
-UPCOMING_EVENTS = [];
+UPCOMING_EVENTS = [
+    {
+        "name": "Clinical Machine Learning with Carsten Eickhoff, Dec. 11th in CIT 368 @ 5:15 PM",
+        "image": "../images/workshops/eickhoff.jpg",
+        "event_link": "https://www.facebook.com/events/549893552532622/",
+        "materials_link": "",
+        "description": "The application of machine learning within the medical field has proved itself invaluable.  As the leader of the AI Lab at Brown's Center for Biomedical Informatics, Carsten Eickhoff’s work focuses on artificial intelligence for improving patient safety, individual health, and quality of medical care. Carsten’s talk on clinical machine learning will investigate two topics: forecasting complications in post cardio-surgical care and diagnosing rare diseases from doctors’ notes. There will be something for everyone in this presentation, whether you come from a CS background or you’re a beginner and have a passion for learning about new topics.",
+        "alt_btn": "Facebook Event",
+        "workshop": false
+    }
+];
 
 PAST_EVENTS = [
     {
