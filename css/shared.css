@@ -267,6 +267,8 @@ li {
 }
 
 .team-image {
+	border-radius: 83px;
+	object-fit: cover;
 	padding: 15px;
 	height: 165px;
 	width: 165px;
