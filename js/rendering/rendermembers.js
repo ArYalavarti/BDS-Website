@@ -4,14 +4,14 @@ members = [
     "name": "Anika Ahluwalia",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Events"
   },
   {
     "image": "./images/team/lucas.jpg",
     "name": "Lucas Schroeder",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Marketing"
   },
   {
     "image": "./images/team/johnny.jpg",
@@ -25,7 +25,7 @@ members = [
     "name": "Eli Silvert",
     "description": "Description",
     "bio": "Bio",
-    "position": "Competition"
+    "position": "Marketing"
   },
   {
     "image": "./images/team/raj.jpg",
@@ -39,21 +39,21 @@ members = [
     "name": "Mariel Pacada",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Workshops"
   },
   {
     "image": "./images/team/joanna.jpg",
     "name": "Joanna Tasmin",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Finance"
   },
   {
     "image": "./images/team/michael.jpg",
     "name": "Michael Mao",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Workshops"
   },
   {
     "image": "./images/team/shamay.jpg",
@@ -74,21 +74,21 @@ members = [
     "name": "Christos Michaelides",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Finance"
   },
   {
     "image": "./images/team/cindy.jpg",
     "name": "Cindy Li",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Workshops"
   },
   {
-    "image": "./images/team/alitia.jpg",
-    "name": "Alitia Eddy",
+    "image": "./images/team/ailita.jpg",
+    "name": "Ailita Eddy",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Events"
   },
   {
     "image": "./images/team/zsozso.jpg",
@@ -109,7 +109,7 @@ members = [
     "name": "Camille Fougere",
     "description": "Description",
     "bio": "Bio",
-    "position": "Datasets"
+    "position": "Marketing"
   }
 ]
 
