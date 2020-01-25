@@ -23,7 +23,7 @@ function renderfooter (pathextension){
                         <a href="mailto:bds@brown.edu" class="footer-link">Contact</a>
                     </div>
                     </div>
-                    <div class="copyright"> Copyright © 2019 Brown University Data Science. All Rights Reserved. <br/>
+                    <div class="copyright"> Copyright © 2020 Brown University Data Science. All Rights Reserved. <br/>
                     Brown University. Providence, RI 02912 <br/> For more data science opportunities and resources,
                     check out the Brown Data Science Initiative. </div> </section> </div>`;
     html = $.parseHTML(html);
