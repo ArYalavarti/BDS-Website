@@ -340,7 +340,7 @@ a {
 }
 
 .navy-text.left {
-	text-align: left !important;
+	text-align: left;
 	margin-bottom: 20px;
 }
 
@@ -378,11 +378,6 @@ a {
 
 li {
 	margin-bottom: 15px;
-}
-
-.workshop {
-	padding-left: 40px;
-	padding-right: 40px;
 }
 
 .event {
@@ -622,5 +617,29 @@ input[type="checkbox"] {
 
 .w-row.workshop {
 	margin-bottom: 40px;
+}
+
+@media (max-width: 479px) {
+	.workshop {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.event-day {
+		padding: 0;
+	}
+
+	.event-name > h4 {
+		overflow-wrap: break-word;
+	}
+
+	.event-name > h5 {
+		text-align: right !important;
+	}
+
+	.workshop > div > div > h4 {
+		/*text-align: center !important;*/
+	}
+
 }
 
