@@ -5,3 +5,7 @@
 
 .presenter::after {
 }
+
+.workshop > div > div > .navy-text.left {
+    margin-bottom: 10px;
+}

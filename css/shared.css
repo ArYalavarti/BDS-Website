@@ -332,7 +332,10 @@ a {
 .workshop-picture {
     height: auto;
     width: 180px;
-    margin-right: 30px;
+}
+
+.workshop-picture-alt {
+    width: 130px;
 }
 
 .workshop-picture.tight {
