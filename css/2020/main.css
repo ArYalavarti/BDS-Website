@@ -9,3 +9,26 @@
 .workshop > div > div > .navy-text.left {
     margin-bottom: 10px;
 }
+
+.office-hours {
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+@media (max-width: 767px) {
+    .office-hours > div:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .navy-text.left {
+        /*padding: 0 20px;*/
+    }
+
+}
+
+@media (max-width: 479px) {
+    .workshop-picture-alt:nth-child(1) {
+        margin: 20px 0;
+    }
+
+}
