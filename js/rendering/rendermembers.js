@@ -35,6 +35,13 @@ members = [
       "position": "Web"
     },
     {
+      "image": "./images/team/temp.png",
+      "name": "Diana Lee",
+      "description": "Description",
+      "bio": "Bio",
+      "position": "Events"
+    },
+    {
       "image": "./images/team/eli.png",
       "name": "Eli Silvert",
       "description": "Description",
