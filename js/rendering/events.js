@@ -2,6 +2,27 @@ let disabledTooltips;
 
 UPCOMING_EVENTS = [
     {
+        "name": "BCC x BDS IBM Chief Analytics Office Info Session",
+        "image": "../images/events/ibm_info_session_graphic.png",
+        "description": "The smartest companies today fully leverage data analytics for strategic decision making. The " +
+            "IBM Chief Analytics Office, a division of IBM Corporate Headquarters, combines business knowledge with big " +
+            "data to direct the future of IBM’s strategic transformation. Do you want to drive significant change within a " +
+            "leading global company and influence C-suite level decisions? <br/><br/>The IBM Chief Analytics Office is an elite " +
+            "analytics consulting team that is tasked by IBM executives to pursue our most complex strategic issues. " +
+            "Our work is a combination of data science and management consulting. Through state of the art technology " +
+            "and the power of artificial intelligence, we strive to improve traditional business decision-making and processes.\n " +
+            "<br/><br/>Join IBM for a virtual info session on September 24, 2020 at 4PM EDT and coffee chats with current IBM " +
+            "consultants on September 25, 2020 with the Brown Consulting Club and Brown Data Science to learn more " +
+            "about their upcoming recruitment opportunities!\n",
+        "event_link": "https://www.facebook.com/events/249443373013308/",
+        "materials_link": "",
+        "alt_btn": "Facebook Event",
+        "workshop": false
+    },
+];
+
+PAST_EVENTS = [
+    {
         "name": "Training end-to-end Neural Taggers Without Labeled Data",
         "image": "../images/workshops/bach.jpg",
         "description": "Join us for a workshop about sequence tagging with Professor Bach! <br/><br/>" +
@@ -16,11 +37,8 @@ UPCOMING_EVENTS = [
         "event_link": "https://www.facebook.com/events/770708983434823/",
         "materials_link": "",
         "alt_btn": "Facebook Event",
-        "workshop": false 
+        "workshop": false
     },
-];
-
-PAST_EVENTS = [
     {
         "name": "Clinical Machine Learning with Carsten Eickhoff, Dec. 11th in CIT 368 @ 5:15 PM",
         "image": "../images/workshops/eickhoff.jpg",

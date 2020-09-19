@@ -97,7 +97,7 @@ a {
 
 .logo-main {
     width: auto;
-    height: 30vh;
+    height: 7vh;
     transition: 300ms ease;
 }
 
@@ -146,7 +146,29 @@ a {
     transition: 400ms ease;
 }
 
-.application-btn:hover {
+.application-btn-standard {
+    float: none;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    margin: 50px auto 25px;
+    width: 225px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: 400ms ease;
+
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 #0000001e, 0 1px 3px 0 #0000002f;
+}
+
+
+.application-btn:hover, .application-btn-standard:hover {
     border: 1px solid #ee6978;
     transition: 400ms ease;
 }
@@ -248,7 +270,7 @@ a {
 
 @media (max-width: 700px) {
     .logo-main {
-        height: 25vh;
+        height: 5vh;
     }
 
     .logo-main.datathon {
@@ -266,7 +288,7 @@ a {
 
 @media (max-width: 480px) {
     .logo-main {
-        height: 18vh;
+        height: 4vh;
     }
 
     .logo-main.datathon {
