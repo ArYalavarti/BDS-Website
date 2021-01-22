@@ -1,19 +1,5 @@
 members = [
     {
-      "image": "./images/team/zsozso.png",
-      "name": "Zsozso Biegl",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Datasets"
-    },
-    {
-      "image": "./images/team/temp.png",
-      "name": "Michael Mao",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Workshops"
-    },
-    {
       "image": "./images/team/anika.png",
       "name": "Anika Ahluwalia",
       "description": "Description",
@@ -21,95 +7,11 @@ members = [
       "position": "Events"
     },
     {
-      "image": "./images/team/lucas.png",
-      "name": "Lucas Schroeder",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Marketing"
-    },
-    {
-      "image": "./images/team/johnny.png",
-      "name": "John Roy",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Web"
-    },
-    {
-      "image": "./images/team/temp.png",
-      "name": "Diana Lee",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Events"
-    },
-    {
-      "image": "./images/team/eli.png",
-      "name": "Eli Silvert",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Marketing"
-    },
-    {
-      "image": "./images/team/raj.png",
-      "name": "Raj Paul",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Datasets"
-    },
-    {
-      "image": "./images/team/joanna.png",
-      "name": "Joanna Tasmin",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Finance"
-    },
-    {
-      "image": "./images/team/ashton.png",
-      "name": "Ashton Lam",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Finance"
-    },
-    {
-      "image": "./images/team/shamay.png",
-      "name": "Shamay Samuel",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Datasets"
-    },
-    {
-      "image": "./images/team/christos.png",
-      "name": "Christos Michaelides",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Finance"
-    },
-    {
-      "image": "./images/team/cindy.png",
-      "name": "Cindy Li",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Workshops"
-    },
-    {
       "image": "./images/team/dharam.png",
       "name": "Dharam Madnani",
       "description": "Description",
       "bio": "Bio",
       "position": "Workshops"
-    },
-    {
-      "image": "./images/team/ailita.png",
-      "name": "Ailita Eddy",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Events"
-    },
-    {
-      "image": "./images/team/leyton.png",
-      "name": "Leyton Ho",
-      "description": "Description",
-      "bio": "Bio",
-      "position": "Web"
     },
     {
       "image": "./images/team/camille.png",
