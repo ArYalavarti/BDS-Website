@@ -4,7 +4,7 @@ members = [
       "name": "Anika Ahluwalia",
       "description": "Description",
       "bio": "Bio",
-      "position": "Events"
+      "position": "Web"
     },
     {
       "image": "./images/team/dharam.png",
@@ -19,8 +19,81 @@ members = [
       "description": "Description",
       "bio": "Bio",
       "position": "Marketing"
-    }
-  ]
+    },
+    {
+      "image": "./images/team/william.png",
+      "name": "William Yang",
+      "description": "Description",
+      "bio": "Bio",
+      "position": "Marketing"
+    },
+  {
+    "image": "./images/team/adwith.png",
+    "name": "Adwith Mukherjee",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Projects"
+  },
+  {
+    "image": "./images/team/colby.png",
+    "name": "Colby Anderson",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Projects"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Shre Kapoor",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Projects"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Shreehari Rammohan",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Projects"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Eunice Hong",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Web"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Emily Ye",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Workshops"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Filip Kierzenka",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Workshops"
+  },
+  {
+    "image": "./images/team/temp.png",
+    "name": "Jinhoo Hong",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Workshops"
+  },
+  {
+    "image": "./images/team/michelle.png",
+    "name": "Michelle Mai",
+    "description": "Description",
+    "bio": "Bio",
+    "position": "Workshops"
+  }
+
+
+
+]
 
   $(document).ready(function (){
     for (var i = 0; i < members.length; i++ ) {
@@ -38,7 +111,7 @@ members = [
     var iso = new Isotope(".grid", {
       itemSelector: ".team-item",
       layoutMode: "fitRows",
-      filter: ".Datasets"
+      filter: ".Marketing"
     });
 
     var filtersElem = document.querySelector(".filters-button-group");
