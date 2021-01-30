@@ -50,7 +50,7 @@ members = [
   },
   {
     "image": "./images/team/temp.png",
-    "name": "Shreehari Rammohan",
+    "name": "Sreehari Rammohan",
     "description": "Description",
     "bio": "Bio",
     "position": "Projects"
